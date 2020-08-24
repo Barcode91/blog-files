@@ -171,4 +171,4 @@ disableHugoGeneratorInject = false
     name       = "Categories"
     url        = "categories/"
 
-publishdir = "Barcode91.github.io"
+publishdir = "public"
