@@ -1,4 +1,4 @@
-baseURL = "https://Barcode91.github.io"
+baseURL = "https://barcode91.github.io"
 title   = "Cyber Security Blog"
 languageCode = "tr"
 theme = "hello-friend-ng"
@@ -17,7 +17,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "public"
+publishDir   = "site"
 
 buildDrafts  = false
 buildFuture  = false
@@ -119,9 +119,7 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/"
 
-  [[params.social]]
-    name = "tryhackme"
-    url  = "https://www.linkedin.com/"  
+  
 
 
 
@@ -171,4 +169,4 @@ disableHugoGeneratorInject = false
     name       = "Categories"
     url        = "categories/"
 
-publishdir = "public"
+
