@@ -3,5 +3,5 @@
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "site"]
 	path = site
-	url = https://github.com/Barcode91/Barcode91.github.io.git
+	url = https://github.com/Barcode91/barcode91.github.io.git
 	branch = master

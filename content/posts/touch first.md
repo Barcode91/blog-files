@@ -1,12 +1,14 @@
 ---
-title: "touch First"
+title: "$touch First"
 date: 2020-08-24T19:41:25+03:00
 draft: false
-toc: true
+toc: false
 images:
 tags: ["genel"]
   
 categories: ["genel"]
+author : "Barcode"
+  
   
 ---
 # Kısa bir giriş
