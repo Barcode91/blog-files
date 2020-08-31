@@ -4,8 +4,8 @@ date: 2020-08-31T22:53:43+03:00
 draft: false
 toc: false
 images:
-tags: [] 
-categories: []
+tags: [tmux] 
+categories: [Genel]
 author : "Barcode"
   
 ---
