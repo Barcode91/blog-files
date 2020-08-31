@@ -20,5 +20,5 @@ Blogumda siber güvenlik, network, bulut bilişim teknolojilerine dair bilgiler 
 * Network alanında router, switch yapılandırmaları, network trafiğinin monitör edilmesi için kullanılan araçlar ve kurulumları gibi konular
 * Bulut Bilişim alanında ise docker, kubernets, openvswitch vb. konular
 
-**Sürçi lisan ise affola...**
+**Sürçi lisan ettik ise affola...**
 

@@ -2,10 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-toc: true
+toc: false
 images:
-tags: []
-  
+tags: [] 
 categories: []
 author : "Barcode"
   
