@@ -42,3 +42,18 @@ Ctrl+B Tuş Kombinasyonundan sonra kullanılan tuşlar;
 ## Pencerelerin Kapatılması
 
 Aktif pencere de __*$ exit*__ komutu yazılarak yada __*Ctrl+D*__ tuş kombinasyonu kullanılarak bölme kapatılır.
+
+## Pencere Yönetimi
+
+Ctrl+B Tuş Kombinasyonundan sonra
+
+```tmux
+
+    c Yeni pencere açar
+    p Bir önceki pencere
+    n Bir sonraki pencere
+    x Pencereyi kapat (y/n)
+
+```
+
+Daha fazlası için __*$man tmux*__
