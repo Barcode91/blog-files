@@ -7,6 +7,7 @@ images:
 tags: [tmux] 
 categories: [Genel]
 author : "Barcode"
+
   
 ---
 *Tmux -> Terminal Multiplexer* 

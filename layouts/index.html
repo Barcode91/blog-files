@@ -1,5 +1,14 @@
 
 {{ define "main" }}
+<!--
+<style>
+
+  .center.cover {
+    border-radius: 20px;
+    margin: auto;
+  }
+</style>
+-->
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
 
@@ -41,14 +50,28 @@
         {{ end }}
       </div>
 
-      {{ if .Params.Cover }}
-        {{ if .Params.UseRelativeCover }}
-          <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" />
-        {{ else }}
-          <img src="{{ .Params.Cover | absURL }}" class="post-cover" />
+      {{ if .Params.tags }}
+      <span class="post-tags">
+        {{ range .Params.tags }}
+          <a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">#{{ . }}</a>&nbsp;
         {{ end }}
+      </span>
+    {{ end }}
+<!--
+    {{ if .Params.Cover }}
+    <figure class="center cover">
+      {{ if .Params.UseRelativeCover }}
+        <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+      {{ else }}
+        <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
       {{ end }}
-
+    
+      {{ if .Params.CoverCaption }}
+        <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+      {{ end }}
+    </figure>
+  {{ end }}
+  -->
       {{ if .IsTranslated }}
         | {{ i18n "postAvailable" }}
           {{ range .Translations }}

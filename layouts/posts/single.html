@@ -1,4 +1,12 @@
+
+
 {{ define "main" }}
+<style>
+  .center.cover {
+    border-radius: 10px;
+    margin: auto;
+  }
+</style>
   <main class="post">
 
     <div class="post-info">
@@ -22,6 +30,10 @@
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </h1>
 
+      {{ with .Params.Cover }}
+        <img src="/{{ . }}" class="center cover" />
+      {{ end }}
+
       {{- if .Params.toc }}
         <hr />
         <aside id="toc">
@@ -31,12 +43,10 @@
         <hr />
       {{- end }}
 
-      {{ with .Params.Cover }}
-        <img src="/{{ . }}" class="post-cover" />
-      {{ end }}
+      
 
       <div class="post-content">
-        {{- partial "toc.html" . -}}
+        
         {{ .Content }}
        
       </div>

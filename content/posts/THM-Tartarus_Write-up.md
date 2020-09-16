@@ -2,14 +2,16 @@
 title: "THM Tartarus Write Up"
 date: 2020-09-12T20:53:26+03:00
 draft: false
-toc: false
-images:
+toc: true
+images: 
 tags: [Tryhackme,write-up,gobuster,nmap,sudo,crontab,burpsuite] 
 categories: [Write-up]
 author : "Barcode"
+Description : "Merhaba, Siber güvenliğe yeni başlayanların ofansif yeteneklerini geliştirebileceği TryHackMe platformunda yer alan, başlangıç seviyesi olan Tartarus adlı makinanın çözümünden bahsedeğim. Hatalı yada ilave açıklama gerektiren yerler için yorum bırakabilirsiniz. Keyifli okumalar..."
+cover : images/thm/tartarus/Screenshot_2020-08-28_13-45-54.png
   
 ---
-{{< image src="/images/thm/tartarus/Screenshot_2020-08-28_13-45-54.png" alt="Hello Friend" position="center" style="border-radius: 10px;" >}}
+
 
 
 {{< text >}}
@@ -18,7 +20,7 @@ Merhaba, Siber güvenliğe yeni başlayanların ofansif yeteneklerini geliştire
 
 ## 1. Keşif Aşaması
 
-Nmap ile makinenin açık portlar ve portlarda çalışan servisler tespit edilir.
+Nmap ile makinenin açık portları ve portlarda çalışan servisleri tespit edilir.
 
 ```bash
 sudo nmap -sV -sC 10.10.236.165 
