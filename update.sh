@@ -1,8 +1,21 @@
-rm -r site
-git submodule add -b master https://github.com/Barcode91/barcode91.github.io.git site
-cd site
-git add -A 
-git commit -m $1 
+#!/bin/bash
+if [[ -d site ]]
+then
+    mv  site ..
+fi
+git add *
+echo "Local repoya dosyalar eklendi"
+git commit -m "add post"
+echo "commit tamamlandı"
 git push origin master
-rm -r site
+echo "Github'a kaynak dosyalar yüklendi."
+mv ../site .
+hugo 
+cd site
+git add *
+echo "Local repoya dosyalar eklendi"
+git commit -m "add post"
+echo "commit tamamlandı" 
+git push origin master
+echo "Github'a site dosyaları yüklendi."
 
