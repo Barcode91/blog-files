@@ -2,7 +2,7 @@
 title: "VULN DevContainer-1 Write Up"
 date: 2020-09-21T22:53:05+03:00
 draft: false
-toc: false
+toc: true
 images:
 tags: [Vulnhub,write-up,Docker,Container,sudo,lfi,burp suite] 
 categories: [write-up]
