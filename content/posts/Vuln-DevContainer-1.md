@@ -11,6 +11,8 @@ Description : "Merhaba, Bu yazımda sizlere [VULNHUB](https://www.vulnhub.com/en
 cover : images/vulnhub/devcontainer1/cover.png
   
 ---
+"Merhaba, Bu yazımda sizlere [VULNHUB](https://www.vulnhub.com/entry/devcontainer-1,548/) 'da yer alan medium seviye DevContainer-1 adlı makinanın çözümünden bahsedeceğim. Keyifli okumalar..."
+
 ## 1. Keşif Aşaması
 {{< text >}}
 Makina kalıp dosyası siteden indirildikten sonra sanallaştırma yazılımları tarafından import edilir ve çalıştırılır. DHCP servisi tarafından atanan ip adresinin tespit edilmesi için netdiscover aracı ile ağda tarama yapılır.
