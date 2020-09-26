@@ -7,6 +7,7 @@ images:
 tags: [tmux] 
 categories: [Genel]
 author : "Barcode"
+Description : "TMUX'a Kısa Bir Giriş yapalım..."
 
   
 ---

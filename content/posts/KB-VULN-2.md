@@ -7,7 +7,6 @@ images:
 tags: [Vulnhub,write-up,sudo,smb,samba,smbclient] 
 categories: [write-up]
 author : "Barcode"
-author : "Barcode"
 Description : "Merhaba, Bu yazımda sizlere [VULNHUB](https://www.vulnhub.com/entry/kb-vuln-2,562/) 'da yer alan KB-VULN: 2 adlı makinanın çözümünden bahsedeceğim. Makina için [KernelBlog](https://kernelblog.org) ekibine teşekkür ederim. Keyifli okumalar..."
 cover : images/vulnhub/kb-vuln2/cover.png
   
