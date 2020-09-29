@@ -7,7 +7,7 @@ images:
 tags: [Vulnhub,write-up,sudo,sudoers,vi] 
 categories: [write-up]
 author : "Barcode"
-Description : "Merhaba, Bu yazımda sizlere [VULNHUB](https://www.vulnhub.com/entry/dc-2,311/) 'da yer alan  adlı makinanın çözümünden bahsedeceğim. Keyifli okumalar..."
+Description : "Merhaba, Bu yazımda sizlere [VULNHUB](https://www.vulnhub.com/entry/dc-2,311/) 'da yer alan DC-2 adlı makinanın çözümünden bahsedeceğim. Keyifli okumalar..."
 cover : images/vulnhub/dc2/cover.png
   
 ---
