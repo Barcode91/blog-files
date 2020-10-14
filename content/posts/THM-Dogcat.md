@@ -4,7 +4,7 @@ date: 2020-10-14T21:45:22+03:00
 draft: false
 toc: true
 images:
-tags: [Tryhackme,write-up,Lfi,docker,cron,ftp] 
+tags: [Tryhackme,write-up,Lfi,docker,sudo,Rce,Php-filter] 
 categories: [write-up]
 author : "Barcode"
 Description : "Merhaba, Bu yazımda sizlere Tryhackme'de yer alan orta seviye zorluktaki [DogCat](https://tryhackme.com/room/dogcat) adlı makinanın çözümünden bahsedeceğim. Keyifli okumalar..."
