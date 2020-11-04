@@ -4,7 +4,7 @@ date: 2020-11-04T21:49:09+03:00
 draft: false
 toc: true
 images:
-tags: [Vulnhub,write-up,ssh,getcap,banner,irb,tar] 
+tags: [Tryhackme,write-up,ssh,getcap,banner,irb,tar] 
 categories: [write-up]
 author : "Barcode"
 Description : "Merhaba, Bu yazımda sizlere Tryhackme'de yer alan orta seviye zorluktaki [The Server From Hell](https://tryhackme.com/room/theserverfromhell) adlı makinanın çözümünden bahsedeceğim. Keyifli okumalar..."
